@@ -1,11 +1,91 @@
 body {
   background-color: white;
 }
+
+form {
+  margin: 0 0 0 10px;
+}
+
+.search-form-search {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.search-form-submit {
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: green;
+}
+
+.icon-emo {
+  padding: 0 0 0 5px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-size: 100px;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.main-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.main-info {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .all-content {
-  background-color: rgb(209, 247, 209);
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
+  background-color: skyblue;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
   border-radius: 20px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+footer {
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  color: green;
+}
+
+strong {
+  font-size: 20px;
+  color: white;
+}
+.temperature-all {
+  display: flex;
+}
+
+.temperature {
+  font-size: 80px;
+  margin-bottom: 100px;
+  margin-left: 180px;
+}
+
+.temperature-icon {
+  font-size: 60px;
+}
+
+.temperature-symbol {
+  font-size: 80px;
 }

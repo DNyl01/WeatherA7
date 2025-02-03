@@ -9,20 +9,29 @@
   <body>
     <div class="all-content">
     <header>
-      <form>
-        <h1>Dara's Forecast Site☁️🌦☀️</h1>
-        <input type="search" placeholder="Enter a City..." />
-        <input type="submit" value="Search" />
+      <form class="search-form">
+        <h1> <span class="icon-emo">☁️ 🌦 ☀️  </span>  </h1>
+        <input type="search" placeholder="Enter a City..." required class="search-form-search" />
+        <input type="submit" value="Search" class=" search-form-submit"/>
       </form>
     </header>
-    <main>
+    <main><div class="weather-data">
         <div>
-      <h1>Hottest City Today</h1>
-      <p>
+      <h1 class="main-city">Hottest City Today</h1>
+      <p class="main-info">
         Today hottest city is Lagos, Nigeria, reaching a scorching
-        31°C </p> </br> Humidity:74%, Wind:km/h.
-      </p></div>
-      <div>Tempeartures</div>
+     <strong>   31°C </strong> </p> </br> Humidity: <strong>74%</strong>, Wind:<strong>15km/h.</strong>
+      </p></div class="temperature-all">
+      <div class="temperature">
+  10
+</div>
+<div class="temperature-symbol">
+  °C
+</div>
+<div class="temperature-icon">
+  🌥
+</div>
+
     </main>
     <footer>
       This project was coded by
